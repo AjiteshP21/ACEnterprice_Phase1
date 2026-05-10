@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A&C Enterprise — Precision industrial metal fasteners. Bolts, Nuts, Washers, Screws, Rivets. Made in India, Mumbai." />
+  <title>A&C Enterprise — Industrial Metal Fasteners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/AC Enterprise logo r gold.png" />
+  <link rel="apple-touch-icon" href="images/AC Enterprise logo r gold.png" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="mainNav">
+  <a href="#hero" class="nav-brand">
+    <img src="images/AC Enterprise logo r gold.png" alt="A&C Enterprise" class="nav-logo-img" />
+    <span class="nav-brand-sub">A&amp;C Enterprise</span>
+  </a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#credentials">Credentials</a>
+    <a href="#contact" class="nav-cta">Get a Quote</a>
+  </div>
+  <button class="nav-burger" id="navBurger" aria-label="Menu">&#9776;</button>
+</nav>
+<div class="nav-mobile" id="navMobile">
+  <a href="#about" onclick="closeMobileNav()">About</a>
+  <a href="#products" onclick="closeMobileNav()">Products</a>
+  <a href="#credentials" onclick="closeMobileNav()">Credentials</a>
+  <a href="#contact" onclick="closeMobileNav()">Get a Quote</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-ticker">
+    <span>Hex Bolt◆ Nylock Nut◆ Spring Washer◆ Self-Tapping Screw◆ Blind Rivet◆ Clinching Nut◆ Stud Bolt◆ Eye Bolt◆ Wing Nut◆ Allen Socket Screw◆ Monobolt Rivet◆ Weld Nut◆ Hex Bolt◆ Nylock Nut◆ Spring Washer◆ Self-Tapping Screw◆ Blind Rivet◆ Clinching Nut◆ Stud Bolt◆ Eye Bolt◆ Wing Nut◆ Allen Socket Screw◆ Monobolt Rivet◆ Weld Nut◆</span>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Est. Mumbai · Made in India · GST &amp; MSME Certified</p>
+    <h1 class="hero-title">PRECISION<br><em>FASTENERS</em><br>YOU TRUST</h1>
+    <p class="hero-sub">A&amp;C Enterprise supplies precision-engineered industrial metal fasteners —<br>bolts, nuts, washers, screws and rivets — to manufacturing, construction<br>and industrial sectors across India.</p>
+    <a href="#contact" class="btn btn-primary">Request Quote →</a>
+  </div>
+  <div class="hero-scroll">scroll</div>
+  <div class="trust-bar">
+    <span>✅ GST Registered</span>
+    <span>🏭 Udyam MSME Certified</span>
+    <span>🇮🇳 Made in India</span>
+    <span>📦 Pan India Delivery</span>
+    <span>⚡ 24hr Response</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section about-section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p class="section-eyebrow">Who We Are</p>
+        <h2 class="section-title">Mumbai's Trusted <em>Fastener</em> Supplier</h2>
+        <p>At <strong>A&amp;C Enterprise</strong>, we contribute to India's growing manufacturing ecosystem by delivering high-quality, Made-in-India metal fasteners designed for modern industries. Our products are available in <strong>Steel, Stainless Steel, and Aluminium</strong> across multiple grades, sizes and specifications.</p>
+        <p>We go beyond supplying fasteners — offering <strong>end-to-end enterprise support</strong> from product design and technical consultation to flexible manufacturing and reliable on-time delivery across India.</p>
+        <ul class="about-points">
+          <li>⚙️ Product design &amp; technical consultation</li>
+          <li>🔧 Custom fastener development &amp; prototyping</li>
+          <li>📦 Flexible manufacturing — small to large volumes</li>
+          <li>🚚 Reliable on-time delivery, Pan India</li>
+        </ul>
+        <p class="about-promise">We build strong connections that hold industries together with <em>Precision, Performance, Progress.</em></p>
+      </div>
+      <div class="about-cards reveal">
+        <div class="about-card"><div class="ac-icon">🏭</div><div class="ac-label">Manufacturing</div><div class="ac-sub">Production lines, assembly, heavy industry</div></div>
+        <div class="about-card"><div class="ac-icon">🏗️</div><div class="ac-label">Construction</div><div class="ac-sub">Civil, infrastructure, structural</div></div>
+        <div class="about-card"><div class="ac-icon">🚗</div><div class="ac-label">Automotive</div><div class="ac-sub">Vehicles, components, assemblies</div></div>
+        <div class="about-card"><div class="ac-icon">⚡</div><div class="ac-label">Engineering</div><div class="ac-sub">Precision, industrial equipment</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="section products-section" id="products">
+  <div class="container">
+    <p class="section-eyebrow">Product Catalogue</p>
+    <h2 class="section-title">Browse <em>All</em> Fasteners</h2>
+
+    <div class="prod-filters" id="prodFilters">
+      <button class="pf-btn active" data-cat="All">All</button>
+      <button class="pf-btn" data-cat="Bolts">Bolts</button>
+      <button class="pf-btn" data-cat="Nuts">Nuts</button>
+      <button class="pf-btn" data-cat="Washers">Washers</button>
+      <button class="pf-btn" data-cat="Screws">Screws</button>
+      <button class="pf-btn" data-cat="Blind Rivets">Blind Rivets</button>
+      <button class="pf-btn" data-cat="Blind Nuts">Blind Nuts</button>
+    </div>
+
+    <div class="prod-search-wrap">
+      <input type="text" id="prodSearch" class="prod-search" placeholder="Search products...">
+    </div>
+
+    <p class="prod-count" id="prodCount">Showing 0 products</p>
+
+    <div class="prod-grid" id="prodGrid"></div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="section why-section">
+  <div class="container">
+    <p class="section-eyebrow">Why Choose Us</p>
+    <h2 class="section-title">Built on Three <em>Pillars</em></h2>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">⚙️</div>
+        <h3>PRECISION</h3>
+        <p>Every fastener manufactured to exact specifications — ensuring perfect fit, superior quality, and unmatched reliability across all industrial applications.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">📊</div>
+        <h3>PERFORMANCE</h3>
+        <p>Products engineered for strength, durability and consistent results. Available in Steel, Stainless Steel and Aluminium across multiple grades.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">🚀</div>
+        <h3>PROGRESS</h3>
+        <p>Continuous improvement, innovation and long-term partnerships. We grow with our clients — from small batches to large-scale production volumes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="container">
+    <p class="cta-label">READY TO ORDER?</p>
+    <h2>Get a quote within 24 hours.<br>Serving Pan India.</h2>
+    <div class="cta-btns">
+      <a href="#contact" class="btn btn-primary btn-lg">Get a Quote</a>
+      <a href="A&amp;C Enterprise Product Catalogue 2025.pdf"
+         target="_blank"
+         class="btn btn-outline btn-lg cat-view-btn">
+        📄 Click to View Catalogue
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CREDENTIALS -->
+<section class="section creds-section" id="credentials">
+  <div class="container">
+    <p class="section-eyebrow">Verified</p>
+    <h2 class="section-title">Our <em>Credentials</em></h2>
+    <p class="creds-sub">Certified quality and transparent documentation.</p>
+    <div class="creds-grid">
+
+      <div class="cred-card reveal">
+        <div class="cred-badge">✅ GST Registered</div>
+        <img src="images/GST CERTIFICATE-1.jpeg"
+             alt="GST Certificate"
+             class="cred-img"
+             loading="lazy">
+        <div class="cred-title">GST Certificate</div>
+        <div class="cred-num">27CAZPN2195L1ZO</div>
+      </div>
+
+      <div class="cred-card reveal">
+        <div class="cred-badge">🏭 MSME Certified</div>
+        <img src="images/UDYAM REGISTRATION CERTIFICATE-1_page-0001.jpg"
+             alt="Udyam Registration Certificate"
+             class="cred-img"
+             loading="lazy"
+             onerror="this.src='images/UDYAM REGISTRATION.png';this.onerror=null">
+        <div class="cred-title">Udyam Registration</div>
+        <div class="cred-num">Registered MSME Business</div>
+      </div>
+
+      <div class="cred-card cred-catalogue reveal">
+        <div class="cred-badge">📄 Product Catalogue · 2025–26</div>
+        <div class="cat-card-inner">
+          <div class="cat-logo">A&amp;C</div>
+          <div class="cat-desc">A&amp;C Enterprise — Industrial Fasteners</div>
+          <ul class="cat-features">
+            <li>✅ 8 Pages · Approx. 2 MB · PDF Format</li>
+            <li>✅ Company profile, values &amp; certifications</li>
+            <li>✅ Full product range — all 6 categories with images</li>
+            <li>✅ Contact details &amp; social media links</li>
+          </ul>
+          <a href="A&amp;C Enterprise Product Catalogue 2025.pdf"
+             target="_blank"
+             class="btn btn-primary cat-dl-btn">
+            📄 Click to View Catalogue
+          </a>
+          <p class="cat-note">Free · No sign-up required</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <p class="section-eyebrow">Get In Touch</p>
+    <h2 class="section-title">Let's <em>Connect</em></h2>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="ci-item"><div class="ci-icon">📧</div><div><div class="ci-label">Email</div><a href="mailto:sales.acdcs@gmail.com">sales.acdcs@gmail.com</a></div></div>
+        <div class="ci-item"><div class="ci-icon">📞</div><div><div class="ci-label">Phone</div><a href="tel:+918454878896">+91 84548 78896</a><br><a href="tel:+919653225937">+91 96532 25937</a></div></div>
+        <div class="ci-item"><div class="ci-icon">📍</div><div><div class="ci-label">Address</div><p>Room No. 5, Smit Bunglow,<br>Kisan Nagar No. 3, Wagle Estate,<br>Thane 400604, Maharashtra</p></div></div>
+        <div class="ci-item"><div class="ci-icon">🕒</div><div><div class="ci-label">Business Hours</div><p>Monday – Saturday<br>9:00 AM – 6:00 PM</p><p>Sunday: Closed</p></div></div>
+        <div class="contact-map">
+          <iframe src="https://maps.google.com/maps?q=Kisan+Nagar+No+3+Wagle+Estate+Thane+400604&output=embed" width="100%" height="200" style="border:0;border-radius:8px;" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <h3>Send Enquiry</h3>
+        <p class="form-sub">We respond within 24 hours.</p>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Name *</label>
+              <input type="text" id="cfName" required placeholder="Your full name">
+            </div>
+            <div class="form-group">
+              <label>Email *</label>
+              <input type="email" id="cfEmail" required placeholder="your@email.com">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Phone *</label>
+              <input type="tel" id="cfPhone" required placeholder="+91 XXXXX XXXXX">
+            </div>
+            <div class="form-group">
+              <label>Category *</label>
+              <select id="cfCategory" required>
+                <option value="">— Select Category —</option>
+                <option value="Bolts">🔩 Bolts</option>
+                <option value="Nuts">⬡ Nuts</option>
+                <option value="Washers">⭕ Washers</option>
+                <option value="Screws">🔧 Screws</option>
+                <option value="Blind Rivets">📌 Blind Rivets</option>
+                <option value="Blind Nuts">🔘 Blind Nuts</option>
+                <option value="Custom">✏️ Customized Product</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group" id="productGroup">
+            <label>Product *</label>
+            <select id="cfProduct" required>
+              <option value="">— Select Category First —</option>
+            </select>
+          </div>
+
+          <div class="form-group" id="customProductGroup" style="display:none">
+            <label>Describe Your Custom Product *</label>
+            <input type="text" id="cfCustomProduct" placeholder="e.g. M10 Hex Bolt with special coating, Grade 10.9">
+          </div>
+          <div class="form-group">
+            <label>Message *</label>
+            <textarea id="cfMessage" rows="4" required placeholder="Describe your requirement — quantity, size, grade, material..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" id="cfSubmit">Send Enquiry →</button>
+          <p class="form-privacy">🔒 Your information is never shared with third parties.</p>
+        </form>
+        <div class="form-success" id="formSuccess" style="display:none">
+          <div class="fs-icon">✅</div>
+          <h3>SENT!</h3>
+          <p>Thank you for contacting A&amp;C Enterprise.<br>We'll get back to you within <strong>24 hours</strong>.</p>
+          <button class="btn btn-outline" onclick="resetForm()">Send Another →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">A&amp;C</div>
+        <p>Trusted supplier of high-quality industrial metal fasteners. Made-in-India products for modern industries.</p>
+        <p class="footer-cert">GST: 27CAZPN2195L1ZO · Udyam MSME Registered</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#hero">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <a href="#products">Bolts</a>
+        <a href="#products">Nuts</a>
+        <a href="#products">Washers</a>
+        <a href="#products">Screws</a>
+        <a href="#products">Blind Rivets</a>
+        <a href="#products">Blind Nuts</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:sales.acdcs@gmail.com">📧 sales.acdcs@gmail.com</a>
+        <a href="tel:+918454878896">📞 +91 84548 78896</a>
+        <a href="tel:+919653225937">📞 +91 96532 25937</a>
+        <p>📍 Kisan Nagar No.3, Wagle Estate, Thane 400604</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 A&amp;C Enterprise. All rights reserved. &nbsp;·&nbsp; Made-in-India · Industrial Metal Fasteners · Mumbai</p>
+      <p class="footer-dev">Designed &amp; Developed by &nbsp;<span>Ajitesh Vitthal Pawar</span></p>
+    </div>
+  </div>
+</footer>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
