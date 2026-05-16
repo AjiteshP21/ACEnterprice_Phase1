@@ -49,7 +49,7 @@ const PRODUCTS = [
   { id:31, name:"General Washers",       cat:"Washers",      desc:"Assorted washers — flat, spring, lock and sealing types in multiple sizes.",              img:"images/Washers.png" },
 
   // ── SCREWS ──
-  { id:32, name:"Allen Socket Screw",    cat:"Screws",       desc:"Internal hex socket cap screw. High tensile. M3–M20. DIN 912.",                          img:"images/Allen(Socket)Screw.png" },
+  { id:32, name:"Allen Socket Screw",    cat:"Screws",       desc:"Internal hex socket cap screw. High tensile. M3–M20. DIN 912.",                          img:"images/AllenSocketScrew.png" },
   { id:33, name:"Concrete Screw",        cat:"Screws",       desc:"Self-tapping screw for direct fastening into concrete, brick and masonry.",               img:"images/ConcreteScrew.png" },
   { id:34, name:"Drywall Screw",         cat:"Screws",       desc:"Bugle head screw for fixing drywall boards to metal or wood framing.",                    img:"images/DrywallScrew.png" },
   { id:35, name:"Machine Screw",         cat:"Screws",       desc:"Fully threaded fastener for use with a nut or into a tapped hole.",                      img:"images/MachineScrew.png" },
@@ -64,8 +64,8 @@ const PRODUCTS = [
   { id:42, name:"Multi-Grip Rivet",      cat:"Blind Rivets", desc:"Single rivet accommodates a wide grip range. Reduces fastener inventory.",                img:"images/Multi-GripRivets.png" },
   { id:43, name:"Open End Blind Rivet",  cat:"Blind Rivets", desc:"Standard open-end aluminium or steel blind rivet. Most widely used blind fastener.",     img:"images/OpenEndBlindRivet.png" },
   { id:44, name:"Solid Rivet",           cat:"Blind Rivets", desc:"Traditional solid shank rivet for permanent, high-strength structural joints.",           img:"images/SolidRivet.png" },
-  { id:45, name:"Structural Rivet",      cat:"Blind Rivets", desc:"Heavy-duty structural blind rivet for high-load aerospace and industrial applications.",   img:"images/Structural1.png" },
-  { id:46, name:"UniGrip Rivet",         cat:"Blind Rivets", desc:"Large flange head rivet for soft, thin or brittle base materials.",                       img:"images/Unigrip1.png" },
+  { id:45, name:"Structural Rivet",      cat:"Blind Rivets", desc:"Heavy-duty structural blind rivet for high-load aerospace and industrial applications.",   img:"images/StructuralRivert.png" },
+  { id:46, name:"UniGrip Rivet",         cat:"Blind Rivets", desc:"Large flange head rivet for soft, thin or brittle base materials.",                       img:"images/UniGripRivert.png" },
 
   // ── BLIND NUTS ──
   { id:47, name:"Plain Round Blind Nut", cat:"Blind Nuts",   desc:"Round body rivet nut. Installed from one side into pre-drilled holes in thin sheet.",    img:"images/PlainRoundblindNut.png" },
